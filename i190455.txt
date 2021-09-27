@@ -1,0 +1,16 @@
+// Query 1
+SELECT CONCAT (V_Type, ' and ', V_Model) AS "VEHICLE TYPE AND BRAND" FROM `vehicle`
+
+// Query 2
+SELECT E_Name FROM employee WHERE E_Name LIKE 'O%'
+
+// Query 3
+SELECT V_RentPerDay FROM vehicle WHERE V_RentPerDay BETWEEN 5000 AND 10000
+
+
+// Query 4
+SELECT E_NAME FROM employee WHERE E_POSITION = " "
+
+
+// Query 5
+SELECT * FROM reservation WHERE Res_Date <= "30/5/2015"
